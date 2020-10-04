@@ -8,12 +8,9 @@
    @import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
    body { 
     background: url(bg.jpg); 
-    mix-blend-mode: normal;
-    position: absolute;
-    width: 99%;
-    height: 10%;
-    left: 0px;
-    top: 0px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     }
    .layer1 {
     position: relative;
@@ -39,7 +36,7 @@
     height: 100%;
     text-align: "center";
     font-family: 'Rochester', cursive;
-    color: #3f1e0b;
+    color: #ffffff;
     font-size: xxx-large;
     text-align: center;
     }
@@ -53,12 +50,22 @@
     color:#000000;
     font-size: medium
     }
+    .layer5 {
+    position: relative;
+    background: #fcf4f4;
+    width: 90%;
+    text-align: center;
+    padding: 3%;
+    font-family: 'Rochester', cursive;
+    color:#814852;
+    font-size: xx-large
+    }
     .text{
     position: absolute;
     width: 300px;
     height: 107px;
     left: 39%;
-    top: 25%;
+    top: 80px;
     font-style: normal;
     font-weight: normal;
     font-size: 60px;
@@ -66,6 +73,10 @@
     display: flex;
     align-items: center;
     text-align: center;
+    }
+    .f {
+    position: relative;
+    padding-left: 2%;
     }
   </style>
 </head>
@@ -92,25 +103,76 @@
             <th><img src="Separator.png"
                 position="relative";
                 width="100%";
-                height="50px";
+                height="70px";
                 alt="разделитель">
                 <h1 class="layer3";><b>Garanted<p>Nice</p><p>Timehaving</p></b></h1>
                 <img src="Separator.png"
                 position="relative";
                 width="100%";
-                height="50px";
+                height="70px";
                 alt="разделитель"></th>
         </tr>
     </table>
     <div class="layer4">
         <img src="coffee.png"
         position="fixed";
-        width="30%";
-        height="100%";
+        width="350px";
+        height="270px";
         align="bottom";
-        alt="разделитель">
+        alt="coffee">
         <h3 class="text";>Our Products:</h3>
-        
+        <table
+        border="0";         
+        align="center";	                     
+        style="width:100%";>
+            <tr>
+                <th>
+                    <p><a href="sample.html"><img src="1.png" width="250" height="250" alt="chocolates"></a></p>
+                </th>
+                <th>
+                    <p><a href="sample.html"><img src="2.png" width="250" height="250" alt="coffee"></a></p>
+                </th>
+                <th>
+                    <p><a href="sample.html"><img src="3.png" width="250" height="250" alt="bakery products"></a></p>
+                </th>
+            </tr>
+            <tr>
+                <th><h2>chocolates</h2></th>
+                <th><h2>coffee</h2></th>
+                <th><h2>bakery products</h2></th>
+            </tr>
+        </table>
+        <p>,</p>
     </div>
+    <table
+    background="4.jpg";
+    border="0";         
+    align="center";	                   
+    style="width:100%";>
+        <tr>
+            <td colspan="2"><h1 class="layer3">About Us</h1></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <img src="Separator.png"
+                position="relative";
+                width="100%";
+                height="70px";
+                alt="разделитель">
+            </td>
+        </tr>
+        <tr>
+            <td class="f">
+                <img src="vid.jpg"
+                    position="relative";
+                    width="550";
+                    height="280";
+                    alt="вид">
+            </td>
+            <td>
+                <h2 class="layer5"> <p>the small cafe in the citycenter</p><p>is open every day from 10:00 to 22:00,</p><p>waiting for you!</p></h2>
+            </td>
+        </tr>
+    </table>
 </body>
 </html>
