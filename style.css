@@ -1,5 +1,5 @@
 html,  body { 
-        background: url(bg.jpg); 
+        background: url(kartinki/bg.jpg); 
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -38,7 +38,7 @@ html,  body {
         text-align: "center";
         font-family: 'Rochester', cursive;
         color: #ffffff;
-        font-size: xxx-large;
+        font-size: xx-large;
         text-align: center;
     }
     .layer4 {
@@ -121,7 +121,7 @@ html,  body {
         height: 250px;
         line-height: 250px;
         text-align: center;
-        background: url(1.png);
+        background: url(kartinki/1.png);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -129,7 +129,7 @@ html,  body {
         height: 250px;
         line-height: 250px;
         text-align: center;
-        background: url(2.png);
+        background: url(kartinki/2.png);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -137,7 +137,7 @@ html,  body {
         height: 250px;
         line-height: 250px;
         text-align: center;
-        background: url(3.png);
+        background: url(kartinki/3.png);
         background-repeat: no-repeat;
         background-size: cover;
     }
