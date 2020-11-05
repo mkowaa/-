@@ -10,7 +10,7 @@ html,  body {
         height: 100%;
         background-color: #F2E3DFA8;
         font-family: 'Rochester', cursive;
-        font-size: 70px;
+        font-size: 50px;
    }
    .layer2 {
         position: relative;
@@ -49,7 +49,7 @@ html,  body {
         padding: 0px;
         font-family: 'Rochester', cursive;
         color:#000000;
-        font-size: 70px;
+        font-size: 40px;
     }
     .layer5 {
         position: relative;
