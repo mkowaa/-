@@ -10,7 +10,7 @@ html,  body {
         height: 100%;
         background-color: #F2E3DFA8;
         font-family: 'Rochester', cursive;
-        font-size: xxx-large
+        font-size: 70px;
    }
    .layer2 {
         position: relative;
@@ -38,7 +38,7 @@ html,  body {
         text-align: "center";
         font-family: 'Rochester', cursive;
         color: #ffffff;
-        font-size: xxx-large;
+        font-size: 100px;
         text-align: center;
     }
     .layer4 {
