@@ -10,7 +10,7 @@ html,  body {
         height: 100%;
         background-color: #F2E3DFA8;
         font-family: 'Rochester', cursive;
-        font-size: 50px;
+        font-size: 40px;
    }
    .layer2 {
         position: relative;
@@ -20,7 +20,7 @@ html,  body {
         padding: 3%;
         font-family: 'Rochester', cursive;
         color:#272320;
-        font-size: xx-large;
+        font-size: x-large;
         transition-duration: 550ms;
    }
    .layer2:hover{
