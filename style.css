@@ -1,18 +1,169 @@
 html,  body { 
-        background: url(kartinki/bg.jpg); 
+    background: url(bg.jpg); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.layer1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #F2E3DFA8;
+    font-family: 'Rochester', cursive;
+    font-size: 30px;
+}
+.layer2 {
+    position: relative;
+    background: #ffffff;
+    width: 200px;
+    right: 5px;
+    font-family: 'Rochester', cursive;
+    color:#272320;
+    font-size: large;
+    transition-duration: 550ms;
+}
+.layer2:hover{
+    box-shadow: 3px 5px 0 #a09995af;
+    background-color: #a76b5f;
+    color:#ffffff
+}
+.layer2:active{
+   background-color: #68423b;
+}
+.layer3 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: 'Rochester', cursive;
+    color: #ffffff;
+    font-size: 75px;
+}
+.layer4 {
+    position: relative;
+    background: #ffffff;
+    width: 100%;
+    right: 0px;
+    padding: 0px;
+    font-family: 'Rochester', cursive;
+    color:#000000;
+    font-size: 40px;
+}
+.layer5 {
+    position: relative;
+    background: #fcf4f4;
+    right: 52px;
+    width: 90%;
+    text-align: center;
+    font-family: 'Rochester', cursive;
+    color:#814852;
+    font-size: 35px;
+}
+.text{
+    position: absolute;
+    width: 300px;
+    height: 107px;
+    left: 39%;
+    top: 80px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 75px;
+    line-height: 80px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.f{
+    position: relative;
+    padding-left: 2%;
+}
+.text2{
+    width: 300px;
+    height: 107px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 85px;
+    line-height: 30px;
+    text-align: right;
+}
+.vid{
+    height: 260px;
+    width: 500px;
+    padding: 20px; 
+    border: 20px;
+    background: url(vid.jpg);
+    background-size: cover;
+}
+a.button{
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    height: 1.5em;
+    vertical-align: middle;
+    text-decoration: none;
+    border: .5em solid rgba(0,0,0,0);
+    border-radius: 100%;
+    background: rgb(245,245,245) linear-gradient(rgb(245,245,245), rgb(188,192,193)) 50% 50% / calc(1.5em + .5em*2) calc(1.5em + .5em*2);
+    box-shadow:
+     inset 0 -3px 10px rgba(255,255,255,1),
+     inset 0 3px 10px rgba(0,0,0,.4),
+     0 2px 4px rgba(0,0,0,.9);
+     transition: .5s ease-in-out;
+}
+a.button:hover:not(:active){
+    box-shadow:
+     0 2px 3px rgba(0,0,0,0) inset,
+     0 2px 2px 2px rgba(134, 76, 101, 0.5),
+     0 -1px 1px 2px rgba(201, 101, 101, 0.5);
+}
+a.button:active{
+    background: linear-gradient(rgb(250,250,250), rgb(235,235,235));
+    box-shadow:
+     0 0 3px rgba(0,0,0,.5) inset,
+     0 1px 1px 1px rgba(255,255,255,.4),
+     0 -1px 1px 1px rgba(0,0,0,.1);
+}
+#izo1{
+    height: 220px;
+    line-height: 220px;
+    text-align: center;
+    background: url(1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#izo2{
+    height: 220px;
+    line-height: 220px;
+    text-align: center;
+    background: url(2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#izo3{
+    height: 220px;
+    line-height: 220px;
+    text-align: center;
+    background: url(3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*--------------------------------------------------MEDIA-------------------------------------------------------------*/
+@media (max-width:575px){
+    body { 
+        background: url(bg.jpg); 
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
     }
-   .layer1 {
+    .layer1 {
         position: relative;
         width: 100%;
         height: 100%;
         background-color: #F2E3DFA8;
         font-family: 'Rochester', cursive;
-        font-size: 35px;
-   }
-   .layer2 {
+        font-size: 55px;
+    }
+    .layer2 {
         position: relative;
         background: #ffffff;
         width: 200px;
@@ -20,26 +171,23 @@ html,  body {
         padding: 3%;
         font-family: 'Rochester', cursive;
         color:#272320;
-        font-size: x-large;
+        font-size: 45px;
         transition-duration: 550ms;
-   }
-   .layer2:hover{
+    }
+    .layer2:hover{
         box-shadow: 3px 5px 0 #a09995af;
         background-color: #a76b5f;
         color:#ffffff
-   }
-   .layer2:active{
+    }
+    .layer2:active{
        background-color: #68423b;
     }
-   .layer3 {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        text-align: "center";
-        font-family: 'Rochester', cursive;
-        color: #ffffff;
-        font-size: 85px;
+    .text3 {
         text-align: center;
+        width: 100%;
+        font-family: 'Rochester', cursive;
+        color:#FFFFFF;
+        font-size: 100px;
     }
     .layer4 {
         position: relative;
@@ -54,19 +202,19 @@ html,  body {
     .layer5 {
         position: relative;
         background: #fcf4f4;
-        right: 52px;
+        right: 2px;
         width: 90%;
         text-align: center;
         padding: 3%;
         font-family: 'Rochester', cursive;
         color:#814852;
-        font-size: 40px;
+        font-size: 15px;
     }
     .text{
         position: absolute;
         width: 300px;
         height: 107px;
-        left: 39%;
+        left: 29%;
         top: 80px;
         font-style: normal;
         font-weight: normal;
@@ -89,7 +237,16 @@ html,  body {
         line-height: 30px;
         text-align: right;
     }
+    .vid{
+        height: 120px;
+        width: 240px;
+        padding: 10px; 
+        border: 10px;
+        background: url(vid.jpg);
+        background-size: cover;
+    }
     a.button{
+        position: relative;
         display: inline-block;
         width: 250px;
         height: 1.5em;
@@ -121,7 +278,7 @@ html,  body {
         height: 250px;
         line-height: 250px;
         text-align: center;
-        background: url(kartinki/1.png);
+        background: url(1.png);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -129,7 +286,7 @@ html,  body {
         height: 250px;
         line-height: 250px;
         text-align: center;
-        background: url(kartinki/2.png);
+        background: url(2.png);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -137,10 +294,614 @@ html,  body {
         height: 250px;
         line-height: 250px;
         text-align: center;
-        background: url(kartinki/3.png);
+        background: url(3.png);
         background-repeat: no-repeat;
         background-size: cover;
     }
-       
-       
-       
+}
+@media(max-width:767px) and (min-width:576px){
+    body { 
+        background: url(bg.jpg); 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .layer1 {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-color: #F2E3DFA8;
+        font-family: 'Rochester', cursive;
+        font-size: 55px;
+    }
+    .layer2 {
+        position: relative;
+        background: #ffffff;
+        width: 200px;
+        right: 5px;
+        padding: 3%;
+        font-family: 'Rochester', cursive;
+        color:#272320;
+        font-size: 40px;
+        transition-duration: 550ms;
+    }
+    .layer2:hover{
+        box-shadow: 3px 5px 0 #a09995af;
+        background-color: #a76b5f;
+        color:#ffffff
+    }
+    .layer2:active{
+       background-color: #68423b;
+    }
+    .text3 {
+        text-align: center;
+        width: 100%;
+        font-family: 'Rochester', cursive;
+        color:#FFFFFF;
+        font-size: 100px;
+    }
+    .layer4 {
+        position: relative;
+        background: #ffffff;
+        width: 100%;
+        right: 0px;
+        padding: 0px;
+        font-family: 'Rochester', cursive;
+        color:#000000;
+        font-size: 40px;
+    }
+    .layer5 {
+        position: relative;
+        background: #fcf4f4;
+        right: 2px;
+        width: 90%;
+        text-align: center;
+        padding: 3%;
+        font-family: 'Rochester', cursive;
+        color:#814852;
+        font-size: 23px;
+    }
+    .text{
+        position: absolute;
+        width: 300px;
+        height: 107px;
+        left: 29%;
+        top: 80px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 90px;
+        line-height: 80px;
+        align-items: center;
+        text-align: center;
+        font-size: 80px;
+    }
+    .f{
+        position: relative;
+        padding-left: 2%;
+    }
+    .text2{
+        width: 300px;
+        height: 107px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 85px;
+        line-height: 30px;
+        text-align: right;
+    }
+    .vid{
+        height: 180px;
+        width: 360px;
+        padding: 15px; 
+        border: 12px;
+        background: url(vid.jpg);
+        background-size: cover;
+    }
+    a.button{
+        position: relative;
+        display: inline-block;
+        width: 250px;
+        height: 1.5em;
+        vertical-align: middle;
+        text-decoration: none;
+        border: .5em solid rgba(0,0,0,0);
+        border-radius: 100%;
+        background: rgb(245,245,245) linear-gradient(rgb(245,245,245), rgb(188,192,193)) 50% 50% / calc(1.5em + .5em*2) calc(1.5em + .5em*2);
+        box-shadow:
+         inset 0 -3px 10px rgba(255,255,255,1),
+         inset 0 3px 10px rgba(0,0,0,.4),
+         0 2px 4px rgba(0,0,0,.9);
+         transition: .5s ease-in-out;
+    }
+    a.button:hover:not(:active){
+        box-shadow:
+         0 2px 3px rgba(0,0,0,0) inset,
+         0 2px 2px 2px rgba(134, 76, 101, 0.5),
+         0 -1px 1px 2px rgba(201, 101, 101, 0.5);
+    }
+    a.button:active{
+        background: linear-gradient(rgb(250,250,250), rgb(235,235,235));
+        box-shadow:
+         0 0 3px rgba(0,0,0,.5) inset,
+         0 1px 1px 1px rgba(255,255,255,.4),
+         0 -1px 1px 1px rgba(0,0,0,.1);
+    }
+    #izo1{
+        height: 250px;
+        line-height: 250px;
+        text-align: center;
+        background: url(1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #izo2{
+        height: 250px;
+        line-height: 250px;
+        text-align: center;
+        background: url(2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #izo3{
+        height: 250px;
+        line-height: 250px;
+        text-align: center;
+        background: url(3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media (max-width:991px) and (min-width:768px){
+    body { 
+        background: url(bg.jpg); 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .layer1 {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-color: #F2E3DFA8;
+        font-family: 'Rochester', cursive;
+        font-size: 50px;
+    }
+    .layer2 {
+        position: relative;
+        background: #ffffff;
+        width: 200px;
+        right: 5px;
+        padding: 3%;
+        font-family: 'Rochester', cursive;
+        color:#272320;
+        font-size: 40px;
+        transition-duration: 550ms;
+    }
+    .layer2:hover{
+        box-shadow: 3px 5px 0 #a09995af;
+        background-color: #a76b5f;
+        color:#ffffff
+    }
+    .layer2:active{
+       background-color: #68423b;
+    }
+    .text3 {
+        text-align: center;
+        width: 100%;
+        font-family: 'Rochester', cursive;
+        color:#FFFFFF;
+        font-size: 70px;
+    }
+    .layer4 {
+        position: relative;
+        background: #ffffff;
+        width: 100%;
+        right: 0px;
+        padding: 0px;
+        font-family: 'Rochester', cursive;
+        color:#000000;
+        font-size: 50px;
+    }
+    .layer5 {
+        position: relative;
+        background: #fcf4f4;
+        right: 2px;
+        width: 90%;
+        text-align: center;
+        padding: 3%;
+        font-family: 'Rochester', cursive;
+        color:#814852;
+        font-size: 28px;
+    }
+    .text{
+        position: absolute;
+        width: 300px;
+        height: 107px;
+        left: 29%;
+        top: 80px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 90px;
+        line-height: 80px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .text2{
+        width: 300px;
+        height: 107px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 85px;
+        line-height: 30px;
+        text-align: right;
+    }
+    .vid{
+        height: 250px;
+        width: 500px;
+        padding: 17px; 
+        border: 15px;
+        background: url(vid.jpg);
+        background-size: cover;
+    }
+    a.button{
+        position: relative;
+        display: inline-block;
+        width: 250px;
+        height: 1.5em;
+        vertical-align: middle;
+        text-decoration: none;
+        border: .5em solid rgba(0,0,0,0);
+        border-radius: 100%;
+        background: rgb(245,245,245) linear-gradient(rgb(245,245,245), rgb(188,192,193)) 50% 50% / calc(1.5em + .5em*2) calc(1.5em + .5em*2);
+        box-shadow:
+         inset 0 -3px 10px rgba(255,255,255,1),
+         inset 0 3px 10px rgba(0,0,0,.4),
+         0 2px 4px rgba(0,0,0,.9);
+         transition: .5s ease-in-out;
+    }
+    a.button:hover:not(:active){
+        box-shadow:
+         0 2px 3px rgba(0,0,0,0) inset,
+         0 2px 2px 2px rgba(134, 76, 101, 0.5),
+         0 -1px 1px 2px rgba(201, 101, 101, 0.5);
+    }
+    a.button:active{
+        background: linear-gradient(rgb(250,250,250), rgb(235,235,235));
+        box-shadow:
+         0 0 3px rgba(0,0,0,.5) inset,
+         0 1px 1px 1px rgba(255,255,255,.4),
+         0 -1px 1px 1px rgba(0,0,0,.1);
+    }
+    #izo1{
+        height: 250px;
+        line-height: 250px;
+        text-align: center;
+        background: url(1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #izo2{
+        height: 250px;
+        line-height: 250px;
+        text-align: center;
+        background: url(2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #izo3{
+        height: 250px;
+        line-height: 250px;
+        text-align: center;
+        background: url(3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media (max-width:1199px) and (min-width:992px){
+    body { 
+        background: url(bg.jpg); 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .layer1 {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-color: #F2E3DFA8;
+        font-family: 'Rochester', cursive;
+        font-size: 40px;
+    }
+    .layer2 {
+        position: relative;
+        background: #ffffff;
+        width: 200px;
+        right: 5px;
+        padding: 3%;
+        font-family: 'Rochester', cursive;
+        color:#272320;
+        font-size: 40px;
+        transition-duration: 550ms;
+    }
+    .layer2:hover{
+        box-shadow: 3px 5px 0 #a09995af;
+        background-color: #a76b5f;
+        color:#ffffff
+    }
+    .layer2:active{
+       background-color: #68423b;
+    }
+    .text3 {
+        text-align: center;
+        width: 100%;
+        font-family: 'Rochester', cursive;
+        color:#FFFFFF;
+        font-size: 80px;
+    }
+    .layer4 {
+        position: relative;
+        background: #ffffff;
+        width: 100%;
+        right: 0px;
+        padding: 0px;
+        font-family: 'Rochester', cursive;
+        color:#000000;
+        font-size: 50px;
+    }
+    .layer5 {
+        position: relative;
+        background: #fcf4f4;
+        right: 2px;
+        width: 90%;
+        text-align: center;
+        padding: 3%;
+        font-family: 'Rochester', cursive;
+        color:#814852;
+        font-size: 32px;
+    }
+    .text{
+        position: absolute;
+        width: 300px;
+        height: 107px;
+        left: 39%;
+        top: 80px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 90px;
+        line-height: 80px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .f{
+        position: relative;
+        padding-left: 2%;
+    }
+    .text2{
+        width: 300px;
+        height: 107px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 85px;
+        line-height: 30px;
+        text-align: right;
+    }
+    .vid{
+        height: 300px;
+        width: 600px;
+        padding: 20px; 
+        border: 17px;
+        background: url(vid.jpg);
+        background-size: cover;
+    }
+    a.button{
+        position: relative;
+        display: inline-block;
+        width: 250px;
+        height: 1.5em;
+        vertical-align: middle;
+        text-decoration: none;
+        border: .5em solid rgba(0,0,0,0);
+        border-radius: 100%;
+        background: rgb(245,245,245) linear-gradient(rgb(245,245,245), rgb(188,192,193)) 50% 50% / calc(1.5em + .5em*2) calc(1.5em + .5em*2);
+        box-shadow:
+         inset 0 -3px 10px rgba(255,255,255,1),
+         inset 0 3px 10px rgba(0,0,0,.4),
+         0 2px 4px rgba(0,0,0,.9);
+         transition: .5s ease-in-out;
+    }
+    a.button:hover:not(:active){
+        box-shadow:
+         0 2px 3px rgba(0,0,0,0) inset,
+         0 2px 2px 2px rgba(134, 76, 101, 0.5),
+         0 -1px 1px 2px rgba(201, 101, 101, 0.5);
+    }
+    a.button:active{
+        background: linear-gradient(rgb(250,250,250), rgb(235,235,235));
+        box-shadow:
+         0 0 3px rgba(0,0,0,.5) inset,
+         0 1px 1px 1px rgba(255,255,255,.4),
+         0 -1px 1px 1px rgba(0,0,0,.1);
+    }
+    #izo1{
+        height: 250px;
+        line-height: 250px;
+        text-align: center;
+        background: url(1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #izo2{
+        height: 250px;
+        line-height: 250px;
+        text-align: center;
+        background: url(2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #izo3{
+        height: 250px;
+        line-height: 250px;
+        text-align: center;
+        background: url(3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #izo4{
+        height: 250px;
+        width: 250px;
+        text-align: center;
+        background: url(111.png);
+    }
+}
+@media (min-width:1200px){
+    body { 
+        background: url(bg.jpg); 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .layer1 {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-color: #F2E3DFA8;
+        font-family: 'Rochester', cursive;
+        font-size: 35px;
+    }
+    .layer2 {
+        position: relative;
+        background: #ffffff;
+        width: 200px;
+        right: 5px;
+        padding: 3%;
+        font-family: 'Rochester', cursive;
+        color:#272320;
+        font-size: 20px;
+        transition-duration: 550ms;
+    }
+    .layer2:hover{
+        box-shadow: 3px 5px 0 #a09995af;
+        background-color: #a76b5f;
+        color:#ffffff
+    }
+    .layer2:active{
+       background-color: #68423b;
+    }
+    .text3 {
+        text-align: center;
+        width: 100%;
+        font-family: 'Rochester', cursive;
+        color:#FFFFFF;
+        font-size: 90px;
+    }
+    .layer4 {
+        position: relative;
+        background: #ffffff;
+        width: 100%;
+        right: 0px;
+        padding: 0px;
+        font-family: 'Rochester', cursive;
+        color:#000000;
+        font-size: 40px;
+    }
+    .layer5 {
+        position: relative;
+        background: #fcf4f4;
+        right: 0px;
+        width: 90%;
+        text-align: center;
+        padding: 3%;
+        font-family: 'Rochester', cursive;
+        color:#814852;
+        font-size: 40px;
+    }
+    .text{
+        position: absolute;
+        width: 300px;
+        height: 107px;
+        left: 39%;
+        top: 80px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 75px;
+        line-height: 80px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .f{
+        position: relative;
+        padding-left: 2%;
+    }
+    .text2{
+        width: 300px;
+        height: 107px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 70px;
+        line-height: 30px;
+        text-align: right;
+    }
+    a.button{
+        position: relative;
+        display: inline-block;
+        width: 250px;
+        height: 1.5em;
+        vertical-align: middle;
+        text-decoration: none;
+        border: .5em solid rgba(0,0,0,0);
+        border-radius: 100%;
+        background: rgb(245,245,245) linear-gradient(rgb(245,245,245), rgb(188,192,193)) 50% 50% / calc(1.5em + .5em*2) calc(1.5em + .5em*2);
+        box-shadow:
+         inset 0 -3px 10px rgba(255,255,255,1),
+         inset 0 3px 10px rgba(0,0,0,.4),
+         0 2px 4px rgba(0,0,0,.9);
+         transition: .5s ease-in-out;
+    }
+    a.button:hover:not(:active){
+        box-shadow:
+         0 2px 3px rgba(0,0,0,0) inset,
+         0 2px 2px 2px rgba(134, 76, 101, 0.5),
+         0 -1px 1px 2px rgba(201, 101, 101, 0.5);
+    }
+    a.button:active{
+        background: linear-gradient(rgb(250,250,250), rgb(235,235,235));
+        box-shadow:
+         0 0 3px rgba(0,0,0,.5) inset,
+         0 1px 1px 1px rgba(255,255,255,.4),
+         0 -1px 1px 1px rgba(0,0,0,.1);
+    }
+    .vid{
+        height: 350px;
+        width: 700px;
+        padding: 20px; 
+        border: 20px;
+        background: url(vid.jpg);
+        background-size: cover;
+    }
+    #izo1{
+        height: 250px;
+        line-height: 250px;
+        text-align: center;
+        background: url(1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #izo2{
+        height: 250px;
+        line-height: 250px;
+        text-align: center;
+        background: url(2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #izo3{
+        height: 250px;
+        line-height: 250px;
+        text-align: center;
+        background: url(3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
