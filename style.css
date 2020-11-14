@@ -4,7 +4,7 @@ html,  body {
     background-attachment: fixed;
     background-size: cover;
 }
-.layer1 {
+.name {
     position: relative;
     width: 100%;
     height: 100%;
@@ -12,7 +12,7 @@ html,  body {
     font-family: 'Rochester', cursive;
     font-size: 30px;
 }
-.layer2 {
+.knopki {
     position: relative;
     background: #ffffff;
     width: 200px;
@@ -22,15 +22,15 @@ html,  body {
     font-size: large;
     transition-duration: 550ms;
 }
-.layer2:hover{
+.knopki:hover{
     box-shadow: 3px 5px 0 #a09995af;
     background-color: #a76b5f;
     color:#ffffff
 }
-.layer2:active{
+.knopki:active{
    background-color: #68423b;
 }
-.layer3 {
+.text3 {
     position: relative;
     width: 100%;
     height: 100%;
@@ -39,7 +39,7 @@ html,  body {
     color: #ffffff;
     font-size: 75px;
 }
-.layer4 {
+.text {
     position: relative;
     background: #ffffff;
     width: 100%;
@@ -49,7 +49,7 @@ html,  body {
     color:#000000;
     font-size: 40px;
 }
-.layer5 {
+.text2 {
     position: relative;
     background: #fcf4f4;
     right: 52px;
@@ -59,7 +59,7 @@ html,  body {
     color:#814852;
     font-size: 35px;
 }
-.text{
+.layer1{
     position: absolute;
     width: 300px;
     height: 107px;
@@ -77,7 +77,7 @@ html,  body {
     position: relative;
     padding-left: 2%;
 }
-.text2{
+.layer3{
     width: 300px;
     height: 107px;
     font-style: normal;
@@ -155,7 +155,7 @@ a.button:active{
         background-attachment: fixed;
         background-size: cover;
     }
-    .layer1 {
+    .name {
         position: relative;
         width: 100%;
         height: 100%;
@@ -163,7 +163,7 @@ a.button:active{
         font-family: 'Rochester', cursive;
         font-size: 55px;
     }
-    .layer2 {
+    .knopki {
         position: relative;
         background: #ffffff;
         width: 200px;
@@ -174,22 +174,22 @@ a.button:active{
         font-size: 45px;
         transition-duration: 550ms;
     }
-    .layer2:hover{
+    .knopki:hover{
         box-shadow: 3px 5px 0 #a09995af;
         background-color: #a76b5f;
         color:#ffffff
     }
-    .layer2:active{
+    .knopki:active{
        background-color: #68423b;
     }
-    .text3 {
+    .layer2 {
         text-align: center;
         width: 100%;
         font-family: 'Rochester', cursive;
         color:#FFFFFF;
         font-size: 100px;
     }
-    .layer4 {
+    .text {
         position: relative;
         background: #ffffff;
         width: 100%;
@@ -199,7 +199,7 @@ a.button:active{
         color:#000000;
         font-size: 40px;
     }
-    .layer5 {
+    .text2 {
         position: relative;
         background: #fcf4f4;
         right: 2px;
@@ -210,7 +210,7 @@ a.button:active{
         color:#814852;
         font-size: 15px;
     }
-    .text{
+    .layer1{
         position: absolute;
         width: 300px;
         height: 107px;
@@ -228,7 +228,7 @@ a.button:active{
         position: relative;
         padding-left: 2%;
     }
-    .text2{
+    .layer3{
         width: 300px;
         height: 107px;
         font-style: normal;
@@ -306,7 +306,7 @@ a.button:active{
         background-attachment: fixed;
         background-size: cover;
     }
-    .layer1 {
+    .name {
         position: relative;
         width: 100%;
         height: 100%;
@@ -314,7 +314,7 @@ a.button:active{
         font-family: 'Rochester', cursive;
         font-size: 55px;
     }
-    .layer2 {
+    .knopki {
         position: relative;
         background: #ffffff;
         width: 200px;
@@ -325,22 +325,22 @@ a.button:active{
         font-size: 40px;
         transition-duration: 550ms;
     }
-    .layer2:hover{
+    .knopki:hover{
         box-shadow: 3px 5px 0 #a09995af;
         background-color: #a76b5f;
         color:#ffffff
     }
-    .layer2:active{
+    .knopki:active{
        background-color: #68423b;
     }
-    .text3 {
+    .layer2 {
         text-align: center;
         width: 100%;
         font-family: 'Rochester', cursive;
         color:#FFFFFF;
         font-size: 100px;
     }
-    .layer4 {
+    .text {
         position: relative;
         background: #ffffff;
         width: 100%;
@@ -350,7 +350,7 @@ a.button:active{
         color:#000000;
         font-size: 40px;
     }
-    .layer5 {
+    .text2 {
         position: relative;
         background: #fcf4f4;
         right: 2px;
@@ -361,7 +361,7 @@ a.button:active{
         color:#814852;
         font-size: 23px;
     }
-    .text{
+    .layer1{
         position: absolute;
         width: 300px;
         height: 107px;
@@ -379,7 +379,7 @@ a.button:active{
         position: relative;
         padding-left: 2%;
     }
-    .text2{
+    .layer3{
         width: 300px;
         height: 107px;
         font-style: normal;
@@ -457,7 +457,7 @@ a.button:active{
         background-attachment: fixed;
         background-size: cover;
     }
-    .layer1 {
+    .name {
         position: relative;
         width: 100%;
         height: 100%;
@@ -465,7 +465,7 @@ a.button:active{
         font-family: 'Rochester', cursive;
         font-size: 50px;
     }
-    .layer2 {
+    .knopki {
         position: relative;
         background: #ffffff;
         width: 200px;
@@ -476,22 +476,22 @@ a.button:active{
         font-size: 40px;
         transition-duration: 550ms;
     }
-    .layer2:hover{
+    .knopki:hover{
         box-shadow: 3px 5px 0 #a09995af;
         background-color: #a76b5f;
         color:#ffffff
     }
-    .layer2:active{
+    .knopki:active{
        background-color: #68423b;
     }
-    .text3 {
+    .layer2 {
         text-align: center;
         width: 100%;
         font-family: 'Rochester', cursive;
         color:#FFFFFF;
         font-size: 70px;
     }
-    .layer4 {
+    .text {
         position: relative;
         background: #ffffff;
         width: 100%;
@@ -501,7 +501,7 @@ a.button:active{
         color:#000000;
         font-size: 50px;
     }
-    .layer5 {
+    .text2 {
         position: relative;
         background: #fcf4f4;
         right: 2px;
@@ -512,7 +512,7 @@ a.button:active{
         color:#814852;
         font-size: 28px;
     }
-    .text{
+    .layer1{
         position: absolute;
         width: 300px;
         height: 107px;
@@ -526,7 +526,7 @@ a.button:active{
         align-items: center;
         text-align: center;
     }
-    .text2{
+    .layer3{
         width: 300px;
         height: 107px;
         font-style: normal;
@@ -604,7 +604,7 @@ a.button:active{
         background-attachment: fixed;
         background-size: cover;
     }
-    .layer1 {
+    .name {
         position: relative;
         width: 100%;
         height: 100%;
@@ -612,7 +612,7 @@ a.button:active{
         font-family: 'Rochester', cursive;
         font-size: 40px;
     }
-    .layer2 {
+    .knopki {
         position: relative;
         background: #ffffff;
         width: 200px;
@@ -623,22 +623,22 @@ a.button:active{
         font-size: 40px;
         transition-duration: 550ms;
     }
-    .layer2:hover{
+    .knopki:hover{
         box-shadow: 3px 5px 0 #a09995af;
         background-color: #a76b5f;
         color:#ffffff
     }
-    .layer2:active{
+    .knopki:active{
        background-color: #68423b;
     }
-    .text3 {
+    .layer2 {
         text-align: center;
         width: 100%;
         font-family: 'Rochester', cursive;
         color:#FFFFFF;
         font-size: 80px;
     }
-    .layer4 {
+    .text {
         position: relative;
         background: #ffffff;
         width: 100%;
@@ -648,7 +648,7 @@ a.button:active{
         color:#000000;
         font-size: 50px;
     }
-    .layer5 {
+    .text2 {
         position: relative;
         background: #fcf4f4;
         right: 2px;
@@ -659,7 +659,7 @@ a.button:active{
         color:#814852;
         font-size: 32px;
     }
-    .text{
+    .layer1{
         position: absolute;
         width: 300px;
         height: 107px;
@@ -677,7 +677,7 @@ a.button:active{
         position: relative;
         padding-left: 2%;
     }
-    .text2{
+    .layer3{
         width: 300px;
         height: 107px;
         font-style: normal;
@@ -761,7 +761,7 @@ a.button:active{
         background-attachment: fixed;
         background-size: cover;
     }
-    .layer1 {
+    .name {
         position: relative;
         width: 100%;
         height: 100%;
@@ -769,7 +769,7 @@ a.button:active{
         font-family: 'Rochester', cursive;
         font-size: 35px;
     }
-    .layer2 {
+    .knopki {
         position: relative;
         background: #ffffff;
         width: 200px;
@@ -780,22 +780,22 @@ a.button:active{
         font-size: 20px;
         transition-duration: 550ms;
     }
-    .layer2:hover{
+    .knopki:hover{
         box-shadow: 3px 5px 0 #a09995af;
         background-color: #a76b5f;
         color:#ffffff
     }
-    .layer2:active{
+    .knopki:active{
        background-color: #68423b;
     }
-    .text3 {
+    .layer2 {
         text-align: center;
         width: 100%;
         font-family: 'Rochester', cursive;
         color:#FFFFFF;
         font-size: 90px;
     }
-    .layer4 {
+    .text {
         position: relative;
         background: #ffffff;
         width: 100%;
@@ -805,7 +805,7 @@ a.button:active{
         color:#000000;
         font-size: 40px;
     }
-    .layer5 {
+    .text2 {
         position: relative;
         background: #fcf4f4;
         right: 0px;
@@ -816,7 +816,7 @@ a.button:active{
         color:#814852;
         font-size: 40px;
     }
-    .text{
+    .layer1{
         position: absolute;
         width: 300px;
         height: 107px;
@@ -834,7 +834,7 @@ a.button:active{
         position: relative;
         padding-left: 2%;
     }
-    .text2{
+    .layer3{
         width: 300px;
         height: 107px;
         font-style: normal;
