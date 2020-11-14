@@ -59,6 +59,17 @@ html,  body {
     color:#814852;
     font-size: 35px;
 }
+.text3{
+    position: absolute;
+    width: 300px;
+    height: 107px;
+    font-size: 75px;
+    left: 25%;
+    top: 20px;
+    text-align: center;
+    font-family: 'Rochester', cursive;
+    color: #000000;
+    }
 .layer1{
     position: absolute;
     width: 300px;
@@ -209,6 +220,17 @@ a.button:active{
         font-family: 'Rochester', cursive;
         color:#814852;
         font-size: 15px;
+    }
+    .text3{
+        position: absolute;
+        width: 300px;
+        height: 107px;
+        font-size: 75px;
+        left: 15%;
+        top: 20px;
+        text-align: center;
+        font-family: 'Rochester', cursive;
+        color: #000000;
     }
     .layer1{
         position: absolute;
@@ -361,6 +383,17 @@ a.button:active{
         color:#814852;
         font-size: 23px;
     }
+    .text3{
+        position: absolute;
+        width: 300px;
+        height: 107px;
+        font-size: 70px;
+        left: 15%;
+        top: 20px;
+        text-align: center;
+        font-family: 'Rochester', cursive;
+        color: #000000;
+    }
     .layer1{
         position: absolute;
         width: 300px;
@@ -512,6 +545,17 @@ a.button:active{
         color:#814852;
         font-size: 28px;
     }
+    .text3{
+        position: absolute;
+        width: 300px;
+        height: 107px;
+        font-size: 70px;
+        left: 15%;
+        top: 20px;
+        text-align: center;
+        font-family: 'Rochester', cursive;
+        color: #000000;
+    }
     .layer1{
         position: absolute;
         width: 300px;
@@ -658,6 +702,17 @@ a.button:active{
         font-family: 'Rochester', cursive;
         color:#814852;
         font-size: 32px;
+    }
+    .text3{
+        position: absolute;
+        width: 300px;
+        height: 107px;
+        font-size: 75px;
+        left: 25%;
+        top: 20px;
+        text-align: center;
+        font-family: 'Rochester', cursive;
+        color: #000000;
     }
     .layer1{
         position: absolute;
@@ -815,6 +870,17 @@ a.button:active{
         font-family: 'Rochester', cursive;
         color:#814852;
         font-size: 40px;
+    }
+    .text3{
+        position: absolute;
+        width: 300px;
+        height: 107px;
+        font-size: 75px;
+        left: 25%;
+        top: 20px;
+        text-align: center;
+        font-family: 'Rochester', cursive;
+        color: #000000;
     }
     .layer1{
         position: absolute;
